@@ -21,9 +21,9 @@ function App() {
           <Route path='/home' element={<Home/>}/>
           <Route path='/cart' element={<Cart/>}/>
           <Route path='/place' element={<PlaceHolder/>}/>
-
+          <Home/>
         </Routes>
-        <Home/>
+        
       </div>
       
       <Footer></Footer>
