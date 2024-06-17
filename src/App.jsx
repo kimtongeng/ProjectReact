@@ -18,10 +18,11 @@ function App() {
       <div className='app'>
         <Navbar setShowLogin={setShowLogin}/>
         <Routes>
+          <Route path='/ProjectReact' element={<Home/>}/>
           <Route path='/home' element={<Home/>}/>
           <Route path='/cart' element={<Cart/>}/>
           <Route path='/place' element={<PlaceHolder/>}/>
-          <Home/>
+          
         </Routes>
         
       </div>
